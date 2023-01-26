@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23272f;
+  font-family:  'DM Sans', sans-serif;;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 4.5rem;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+  padding: 5rem 4rem;
+}
+.icon-item-heading {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #7EACFF;
+  display: flex;
+}
+
+.item-heading{
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.icon-item {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background-color: #7EACFF;
+  display: flex;
+}
+
+.green {
+  background-color: #017D5C;
+}
+
+.red {
+  background-color: #D1403F;
+}
+
+.yellow {
+  background-color: #F5C27B;
+}
+
+.light-green{
+  background-color: #62F5D1;
+}
+
+.pink {
+  background-color: #FA9D96;
+}
+
+
+.bi-check{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.7rem;
+}
+
+.bi-x{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.7rem;
+}
+
+
+.todo-section{
+  margin-top: 1rem;
+}
+.todo-section-item{
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem 1.3rem ;
+  border-radius: 0.8rem;
+}
+
+.todo-heading{
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  font-weight: bolder;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 2rem;
+    padding: 5rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto  ;
+    gap: 2rem;
+    padding: 5rem 4rem;
+  }
+}
+
